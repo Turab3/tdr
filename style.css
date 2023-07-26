@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav1>ul>li{
+    display: inline;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.nav1>ul{
+    background-color: black;
+    padding: 10px;
+    text-align: end;
+}
+
+.nav1>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo1{
+    text-decoration: none;
+    float: left;
+    font-size: 45px;
+    margin-top: -15px;
+    color: white;
+}
+
+.src1{
+    height: 30px;
+    width: 250px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+}
+
+
+.nav2{
+    margin-top: 15px;
+}
+.nav2>ul>li{
+    display: inline;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.nav2>ul{
+    background: url(bg1.jpg);
+    padding: 10px;
+    text-align: end;
+}
+
+.nav2>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo2{
+    text-decoration: none;
+    float: left;
+    font-size: 45px;
+    margin-top: -15px;
+    color: white;
+    text-shadow: 2px 2px yellow;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.src2{
+    height: 30px;
+    width: 250px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid white;
+    background: none;
+}
+
+.nav2>ul>li>a:hover{
+    padding:2px;
+    transition: 0.5s;
+}
+
+.src2:hover{
+    padding: 15px;
+    border: 1px solid white;
+}
+
+.logo2:hover{
+    color: red;
+    text-shadow: 2px  2px white;
+    transition: 0.5s;
+}
+
+
+.nav3>ul>li{
+    display: inline;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Mynerve', cursive;
+}
+
+.nav3{
+    margin-top: 15px;
+}
+.nav3>ul{
+    background: linear-gradient(to right,red,yellow,green,#cc800e);
+    padding: 10px;
+    text-align: end;
+}
+
+.nav3>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo3{
+    text-decoration: none;
+    float: left;
+    font-size: 45px;
+    margin-top: -25px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px white;
+    font-family: 'Mynerve', cursive;
+}
+
+.src3{
+    height: 30px;
+    width: 250px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-family: 'Mynerve', cursive;
+}
+
+.src3:hover{
+    background-color: black;
+    color: #10b93b;
+    border: 1px solid #10b93b;
+}
+
+.logo3:hover{
+    color: black;
+    text-shadow: 2px 2px 2px #10b93b;
+    transition: 0.5s;
+}
+
+.nav3>ul>li>a:hover{
+    padding:2px;
+    transition: 0.5s; 
+    color: red;
+    text-shadow:2px 2px 2px black ;
+}
